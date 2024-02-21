@@ -22,7 +22,7 @@
 	padding: 0px;
 }
 body{
-	background-color: var(--cor0);
+	background-image: url(pattern004.png);
 	font-family: var(--fonte-padrao);
 }
 main p{

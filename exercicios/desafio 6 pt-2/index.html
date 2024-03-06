@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>boletim escolar</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .color{
+            color: white;
+            background-color: rgb(138, 137, 137);
+        }
+        .media{
+            text-align: justify;
+            background-color: rgb(138, 137, 137);
+            color: white;
+        }
+
+    </style>
 </head>
 <body>
-    
+    <table>
+        <thead>
+            <tr>
+                <th scope="row" class="color">Area</th>
+                <th scope="row" class="color">Disciplina</th>
+                <th scope="row" class="color">Nota 1</th>
+                <th scope="row" class="color">Nota 2</th>
+                <th scope="row" class="color">Media</th>
+            </tr>
+            <tr>
+                <th scope="colgroup" rowspan="5">Exatas</th>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>7.5</td>
+                <td>7.1</td>
+                <td>7.3</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>8.0</td>
+                <td>9.6</td>
+                <td>8.8</td>
+            </tr>
+            <tr>
+                <td>Matematica</td>
+                <td>6.7</td>
+                <td>8.1</td>
+                <td>7.4</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>7.8</td>
+                <td>8.6</td>
+                <td>8.2</td>
+            </tr>
+            <tr>
+                <th scope="col" class="color media" colspan="4">Media De Exatas</th>
+                <td class="media">24.3</td>
+            </tr>
+            <tr>
+                <th scope="colgroup" rowspan="3">Humanas</th>
+            </tr>
+            <tr>
+                <td>Historia</td>
+                <td>7.9</td>
+                <td>8.1</td>
+                <td>8.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>7.7</td>
+                <td>8.7</td>
+                <td>8.2</td>
+            </tr>
+            <tr>
+                <th scope="col" class="media" colspan="4">Media De Humanas</th>
+                <td class="media">8.1</td>
+            </tr>
+        </thead>
+    </table>
 </body>
 </html>
